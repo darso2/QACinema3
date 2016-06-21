@@ -49,7 +49,6 @@ float:right;
             <div>
                 <!--Change text inside alert-->
                 <asp:Button ID="Button1" runat="server" Text="Print confirmation" class="printbutton" OnClientClick="return alert('Feature not implemented, please donate to the Britsh Heart Foundation for updated information.')" />
-                 
             </div>
      </div>       
     </div>
