@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.intable table {
+        width: 100%;
+        border-collapse: separate;
+        vertical-align: middle;
+        }       
+
+        .intable th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .intable2{
+            text-align:center;
+        }
