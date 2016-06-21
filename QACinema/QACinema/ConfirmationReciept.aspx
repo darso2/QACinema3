@@ -48,7 +48,12 @@ float:right;
             <span class="confFont"> Total cost:</span><span class="center-block" style="margin-left:20px;margin-top:2px" id="price" runat="server"> testCustomer</span>
             <div>
                 <!--Change text inside alert-->
-                <asp:Button ID="Button1" runat="server" Text="Print confirmation" class="printbutton" OnClientClick="return alert('Feature not implemented, please donate to the Britsh Heart Foundation for updated information.')" />
+                
+                <%-- <button id="Button1" runat="server" class="printbutton"  onclick="return alert('Feature not implemented, please donate to the Britsh Heart Foundation for updated information.')" >--%>
+                <button id="Button2" runat="server" class="printbutton"  onclick="return window.print(); " >
+            <span class="glyphicon glyphicon-print" ></span>
+                     Print confirmation
+                </button>
             </div>
      </div>       
     </div>

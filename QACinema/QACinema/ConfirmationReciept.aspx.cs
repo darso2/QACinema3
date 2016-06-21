@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Drawing.Printing;
 
+
 namespace QACinema
 {
     public partial class ConfirmationReciept : System.Web.UI.Page
@@ -41,8 +42,20 @@ namespace QACinema
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-             Response.Write("alert(\"Hello! I am an alert box!!\")");
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + "An error occurred while printing" +  ex.ToString() + "');", true);
+               
+            }
+        }
+
+        protected void print_PrintPage(object sender, PrintPageEventArgs e)
+        {
+
         }
     }
 }
