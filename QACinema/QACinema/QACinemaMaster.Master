@@ -39,8 +39,12 @@
                             <li><a href="#">Opening times</a></li>
                             <li><a href="#">How to find us</a></li>
                             <li><a href="#">Local Venues</a></li>
-                        <li />
+
+
+                        </li>
                         </ul>
+                        <li><a href="/">Discussion Board</a>
+                        <li />
                     </ul>
 
                     <form class="navbar-form navbar-right" role="search">
