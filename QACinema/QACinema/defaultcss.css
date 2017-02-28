@@ -7,6 +7,7 @@
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(149, 150, 173, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(149, 150, 173, 1) 100%);
     border-bottom-width: 1px;
+    margin-top:0;
 }
 #navbarMenu.navbar-default .navbar-nav>li>a {
     color: rgba(224, 221, 221, 1);
@@ -38,4 +39,7 @@
 #navbarMenu.navbar-default .navbar-toggle:hover .icon-bar,
 #navbarMenu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #9596ad;
+}
+header .jumbotron{
+    margin-bottom:0;
 }
