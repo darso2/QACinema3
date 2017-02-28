@@ -1,0 +1,41 @@
+﻿#navbarMenu.navbar-default .navbar-brand {
+    color: rgba(224, 221, 221, 1);
+}
+#navbarMenu.navbar-default {
+    font-size: 26px;
+    background-color: rgba(149, 150, 173, 1);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(149, 150, 173, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(149, 150, 173, 1) 100%);
+    border-bottom-width: 1px;
+}
+#navbarMenu.navbar-default .navbar-nav>li>a {
+    color: rgba(224, 221, 221, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#navbarMenu.navbar-default .navbar-nav>li>a:hover,
+#navbarMenu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(171, 169, 169, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#navbarMenu.navbar-default .navbar-nav>.active>a,
+#navbarMenu.navbar-default .navbar-nav>.active>a:hover,
+#navbarMenu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(41, 41, 41, 1);
+    background-color: rgba(232, 232, 232, 1);
+    background: -webkit-linear-gradient(top, rgba(92, 92, 92, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    background: linear-gradient(to bottom, rgba(92, 92, 92, 1) 0%, rgba(232, 232, 232, 1) 100%);
+}
+#navbarMenu.navbar-default .navbar-toggle {
+    border-color: #e8e8e8;
+}
+#navbarMenu.navbar-default .navbar-toggle:hover,
+#navbarMenu.navbar-default .navbar-toggle:focus {
+    background-color: #e8e8e8;
+}
+#navbarMenu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e8e8e8;
+}
+#navbarMenu.navbar-default .navbar-toggle:hover .icon-bar,
+#navbarMenu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #9596ad;
+}
