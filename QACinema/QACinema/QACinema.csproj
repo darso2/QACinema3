@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="QACHome.aspx" />
+    <Content Include="screenPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="QACinemaMaster.Master.designer.cs">
       <DependentUpon>QACinemaMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="screenPage.aspx.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="screenPage.aspx.designer.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
