@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QACinemaMaster.master.cs" Inherits="QACinema.QACinemaMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QACinemaMaster.master.cs" Inherits="QACinema.QACinemaMaster" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,26 +19,26 @@
         </div><br/><br/>
         <div id="navbarMenu" class="navbar navbar-default " role="navigation">
             <div class="container-fluid">
-                <div class="navbar-header"><a class="navbar-brand" href="index.html"><img src = "../images/stock_logo.jpg" height = "20px" width = "50px"/></a>
+                <div class="navbar-header"><a class="navbar-brand" href="index.aspx"><img src = "../images/stock_logo.jpg" height = "20px" width = "50px"/></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-menubuilder">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a href="/">Home</a>
+                        <li><a href="/index.aspx">Home</a>
                         </li>
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movies</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Listing Gallery</a></li>
-                            <li><a href="#">Upcoming Releases</a></li>
-                            <li><a href="#">Screens</a></li>
+                            <li><a href="./listingGallery.aspx">Listing Gallery</a></li>
+                            <li><a href="./upcomingMovies.aspx">Upcoming Releases</a></li>
+                            <li><a href="./screens.aspx">Screens</a></li>
                         <li />
                         </ul>
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Opening times</a></li>
-                            <li><a href="#">How to find us</a></li>
-                            <li><a href="#">Local Venues</a></li>
+                            <li><a href="./openingTimes.aspx">Opening times</a></li>
+                            <li><a href="./gettingThere.aspx">How to find us</a></li>
+                            <li><a href="./venues.aspx">Local Venues</a></li>
                         <li />
                         </ul>
                     </ul>
@@ -72,7 +72,7 @@
 		</div>
 		
 		<div class="col-md-4 text-center">
-			<h5><a href="#">Contact us</a></h5>
+			<h5><a href="./contactUs.aspx">Contact us</a></h5>
 			<h6>email@qa.com</h6>
 			<h6>phone: 000000000000</h6>
 			
@@ -82,9 +82,10 @@
 		<div class="col-md-4">
 			<h5>General links</h5>
 			<ul>
-				<li><a href="#">Privacy policy</a></li>
-				<li><a href="#">Terms of condition</a></li>
-				<li><a href="#">Sitemap</a></li>
+				<li><a href="./PrivacyPolicy.aspx">Privacy policy</a></li>
+				<li><a href="./ToC.aspx">Terms of condition</a></li>
+				<li><a href="./siteMap.aspx">Sitemap</a></li>
+  			    	<li><a href="./Scrum_Information.aspx">Scrum</a></li>
 			</ul>
 		</div>
 		
