@@ -95,6 +95,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="defaultcss.css" />
+    <Content Include="Images\deluxe_screen.jpg" />
+    <Content Include="Images\deluxe_seatingplan.jpg" />
+    <Content Include="Images\standard_screen.jpg" />
+    <Content Include="Images\standard_seatingplan.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,6 +114,7 @@
   <ItemGroup>
     <Content Include="QACHome.aspx" />
     <Content Include="screenPage.aspx" />
+    <Content Include="screenPage.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
