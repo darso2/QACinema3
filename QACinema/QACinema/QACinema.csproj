@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="venues.aspx" />
     <Content Include="listingGallery.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -112,6 +113,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="venues.aspx.cs">
+      <DependentUpon>venues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="venues.aspx.designer.cs">
+      <DependentUpon>venues.aspx</DependentUpon>
+    </Compile>
     <Compile Include="listingGallery.aspx.cs">
       <DependentUpon>listingGallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
