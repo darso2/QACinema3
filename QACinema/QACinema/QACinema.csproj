@@ -94,6 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="defaultcss.css" />
+    <Content Include="Images\deluxe_screen.jpg" />
+    <Content Include="Images\deluxe_seatingplan.jpg" />
+    <Content Include="Images\standard_screen.jpg" />
+    <Content Include="Images\standard_seatingplan.jpg" />
     <Content Include="venues.aspx" />
     <Content Include="listingGallery.aspx" />
     <Content Include="packages.config" />
@@ -110,6 +115,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="QACHome.aspx" />
+    <Content Include="screenPage.aspx" />
+    <Content Include="screenPage.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +148,13 @@
     </Compile>
     <Compile Include="QACinemaMaster.Master.designer.cs">
       <DependentUpon>QACinemaMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="screenPage.aspx.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="screenPage.aspx.designer.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
