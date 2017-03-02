@@ -13,10 +13,10 @@
 </head>
 
 <body>
-    <div>
+    <header>
         <div class="jumbotron text-center">
         <h1>QA Cinema Ltd</h1>
-        </div><br/><br/>
+        </div>
         <div id="navbarMenu" class="navbar navbar-default " role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header"><a class="navbar-brand" href="index.html"><img src = "../images/stock_logo.jpg" height = "20px" width = "50px"/></a>
@@ -64,7 +64,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+    </header>
 
 <footer class="footer">
 	<div class="row">

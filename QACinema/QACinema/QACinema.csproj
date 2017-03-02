@@ -94,7 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="listingGallery.aspx" />
+    <Content Include="defaultcss.css" />
+    <Content Include="Images\deluxe_screen.jpg" />
+    <Content Include="Images\deluxe_seatingplan.jpg" />
+    <Content Include="Images\standard_screen.jpg" />
+    <Content Include="Images\standard_seatingplan.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,16 +113,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="QACHome.aspx" />
+    <Content Include="screenPage.aspx" />
+    <Content Include="screenPage.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="listingGallery.aspx.cs">
-      <DependentUpon>listingGallery.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="listingGallery.aspx.designer.cs">
-      <DependentUpon>listingGallery.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QACHome.aspx.cs">
       <DependentUpon>QACHome.aspx</DependentUpon>
@@ -133,6 +132,13 @@
     </Compile>
     <Compile Include="QACinemaMaster.Master.designer.cs">
       <DependentUpon>QACinemaMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="screenPage.aspx.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="screenPage.aspx.designer.cs">
+      <DependentUpon>screenPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
