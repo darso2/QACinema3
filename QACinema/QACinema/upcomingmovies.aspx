@@ -5,9 +5,13 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-     <link rel="stylesheet" type="text/css" href="listinggallery.css"/>
+    <link rel="stylesheet" type="text/css" href="upcoming.css"/>
 
-                         <% 
+    <form id="form1" runat="server">
+            <div class="intable2">
+                <div class="intable" style="vertical-align:bottom">
+                <table>
+                     <% 
                          string id = Request["T"];
                          string name = "";
                          string img = "";
@@ -35,7 +39,7 @@
                                  Response.Write("<img src='" + img + "' style=' background-size: cover; background-position:top'/>");
                                  Response.Write("<a href='movies.aspx?T=" + id + "'>");
                                  Response.Write("<div class='movie" + id + "'>");
-                                 Response.Write("<div class='movie" + id + "-title'>" + name + "</div>");
+                                 Response.Write("<div class='movie" + id + "-title' >" + name + "</div>");
                                  Response.Write("</div>");
                                  Response.Write("</a>");
                                  Response.Write("</th>");
@@ -47,12 +51,9 @@
                          }
 
 
-                         %>
-
+                         %>        
            </table>
            </div>
         </div>
     </form>
-
 </asp:Content>
-
