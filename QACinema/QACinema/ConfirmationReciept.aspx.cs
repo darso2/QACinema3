@@ -15,15 +15,15 @@ namespace QACinema
         protected void Page_Load(object sender, EventArgs e)
         {
             //Pseudo-Data
-            Session["cardNumber"] = "123457890123456";
-            Session["cardHolderName"] = "2";
-            Session["screen"] = "3";
-            Session["movie"] = "4";
-            Session["date"] = "5";
-            Session["time"] = "6";
-            Session["numberOfTickets"] = "7";
-            Session["seatName"] = "8";
-            Session["totalPrice"] = "9";
+            //Session["cardNumber"] = "123457890123456";
+            //Session["cardHolderName"] = "2";
+            //Session["screen"] = "3";
+            //Session["movie"] = "4";
+            //Session["date"] = "5";
+            //Session["time"] = "6";
+            //Session["numberOfTickets"] = "7";
+            //Session["seatName"] = "8";
+            //Session["totalPrice"] = "9";
 
             //Retrieve last 4 numbers of card detail
             Session["cardNumber"] = Session["cardNumber"].ToString().Substring(Session["cardNumber"].ToString().Length - 4, 4);
